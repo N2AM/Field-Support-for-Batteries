@@ -1,0 +1,17 @@
+[
+  {
+    "academyId": 30006,
+    "unhealthyDevices": [
+      { "serialNumber": "1805C67HD02259", "batteryUsage": 0.45 },
+      { "serialNumber": "1805C67HD02332", "batteryUsage": 0.6 },
+      { "serialNumber": "1805C67HD02345", "batteryUsage": 0.8 }
+    ]
+  },
+  {
+    "academyId": 30007,
+    "unhealthyDevices": [
+      { "serialNumber": "1805C67HD02321", "batteryUsage": 0.75 },
+      { "serialNumber": "1805C67HD02332", "batteryUsage": 0.35 }
+    ]
+  }
+]

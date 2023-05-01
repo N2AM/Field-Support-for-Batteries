@@ -1,0 +1,1 @@
+export const BATTERY_SUPPORT = 'batteries-support'
