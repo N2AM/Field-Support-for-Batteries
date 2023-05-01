@@ -1,29 +1,19 @@
-import schoolsMockData from '../fixtures/schoolsMockData.json';
-import { defineStore } from 'pinia'
+import mockData from '../fixtures/mockData.json';
 
 describe('Schools tabel', () => {
 
   it('displays the schools with the highest number of battery issues', () => {
     cy.visit('/');
+    cy.contains('Schools with the highest number of battery issues');
 
-    cy.intercept('GET', '/data/battery-data.json', { fixture: 'schoolsMockData.json' }).as('getSchools');
+    cy.intercept('GET', '/data/battery-data.json', { fixture: 'mockData.json' }).as('getData');
 
-    cy.wait('@getSchools').then(schoolsData => {
-      // Convert the object into a Map
-      const schoolsMap = schoolsMockData.map((school) => ({
-        ...school,
-        unhealthyDevices: school.unhealthyDevices.reduce((acc, { serialNumber, batteryUsage }) => {
-          acc.set(serialNumber, batteryUsage);
-          return acc
-        }, new Map())
-
-      }))
-
-      expect(schoolsMap[0].unhealthyDevices.get('1805C67HD02259')).to.equal(0.45);
-    });;
-
-    schoolsMockData.forEach((school) => {
-      cy.contains(school.academyId);
+    mockData.forEach((data) => {
+      cy.contains(data.academyId);
+      cy.contains(data.serialNumber);
+      cy.contains(data.employeeId).should('not.exist');
+      cy.contains(data.timestamp).should('not.exist');
+      cy.contains(data.batteryLevel).should('not.exist');
     });
   });
 });

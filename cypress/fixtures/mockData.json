@@ -1,0 +1,58 @@
+[
+  {
+    "academyId": 30021,
+    "batteryLevel": 0.29,
+    "employeeId": "T1008245",
+    "serialNumber": "1805C67HD02232",
+    "timestamp": "2019-05-17T08:30:42.513+01:00"
+  },
+  {
+    "academyId": 30021,
+    "batteryLevel": 0.5,
+    "employeeId": "T1001213",
+    "serialNumber": "TT-C67ML-A-0001-01481",
+    "timestamp": "2019-05-17T08:33:14.969+01:00"
+  },
+  {
+    "academyId": 30021,
+    "batteryLevel": 0.32,
+    "employeeId": "T1007405",
+    "serialNumber": "1805C67HD02317",
+    "timestamp": "2019-05-17T08:37:55.83+01:00"
+  },
+  {
+    "academyId": 30021,
+    "batteryLevel": 0.65,
+    "employeeId": "T1008287",
+    "serialNumber": "1805C67HD02064",
+    "timestamp": "2019-05-17T08:40:46.492+01:00"
+  },
+  {
+    "academyId": 30021,
+    "batteryLevel": 0.73,
+    "employeeId": "T1008294",
+    "serialNumber": "1805C67HD02051",
+    "timestamp": "2019-05-17T08:41:12.939+01:00"
+  },
+  {
+    "academyId": 30021,
+    "batteryLevel": 0.09,
+    "employeeId": "T1001323",
+    "serialNumber": "TT-C67ML-A-0001-01469",
+    "timestamp": "2019-05-17T08:53:07.299+01:00"
+  },
+  {
+    "academyId": 30021,
+    "batteryLevel": 0.67,
+    "employeeId": "T1008287",
+    "serialNumber": "1805C67HD02064",
+    "timestamp": "2019-05-17T09:00:30.463+01:00"
+  },
+  {
+    "academyId": 30021,
+    "batteryLevel": 0.78,
+    "employeeId": "T1001765",
+    "serialNumber": "TT-C67ML-A-0001-02580",
+    "timestamp": "2019-05-17T09:07:37.479+01:00"
+  }
+]
